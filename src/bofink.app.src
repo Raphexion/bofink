@@ -1,0 +1,22 @@
+{application, bofink,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { bofink_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    inets,
+    cowlib,
+    ranch,
+    cowboy,
+    lager,
+    jiffy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
